@@ -14,7 +14,7 @@ const Services = () => {
                 <div key={index} className="flex flex-col justify-center items-center bg-white
                  border border-gray-50 rounded-2xl py-8 px-2 hover:shadow-xl hover:shadow-gray-200">
                     <div className="shadow-md rounded-xl p-4 m-6">
-                        <img src={`../../public/${item.icon}`} />
+                        <img src={`../${item.icon}`} />
                     </div>
                     <div className="font-semibold text-xl text-main-color mt-4">
                         <h2>{item.title}</h2>

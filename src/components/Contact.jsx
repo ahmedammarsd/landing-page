@@ -32,7 +32,7 @@ const Contact = () => {
 
         <div className="relative p-20">
           <div className="image">
-            <img src="/images/image.png" className="" />
+            <img src="../images/image.png" className="" />
           </div>
 
           <div className={chartDou}>
