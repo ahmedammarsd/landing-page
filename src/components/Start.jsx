@@ -1,13 +1,17 @@
-import React from 'react'
+import React from 'react';
+import img from "../images/half-circle.png";
+import img2 from "../images/circle.png";
+import img3 from "../images/circle2.png";
+
 
 const Start = () => {
   return (
     <div className="container px-5 lg:px-5 md:px-3 sm:px-2 mx-auto py-6 my-2 overflow-hidden">
 
         <div className="w-full h-80 relative p-7 bg-purple rounded-2xl overflow-hidden">
-            <img src="/images/half-circle.png" className="absolute top-0 left-20" />
-            <img src="/images/circle.png" className="absolute bottom-0 left-72" />
-            <img src="/images/circle2.png" className=" absolute top-0 right-0" />
+            <img src={img} className="absolute top-0 left-20" />
+            <img src={img2} className="absolute bottom-0 left-72" />
+            <img src={img3} className=" absolute top-0 right-0" />
             <div>
                 <h2 className="text-xl lg:text-5xl md:text-3xl sm:text-xl text-white mt-4 p-2 mb-4">كفى كلامًا ، فلنبني شيئًا رائعا</h2>
                 <div className="flex justify-between items-center flex-wrap">

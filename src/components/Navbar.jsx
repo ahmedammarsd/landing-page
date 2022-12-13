@@ -3,7 +3,8 @@ import {NavLink } from "react-router-dom";
 import { AiOutlineMenu } from 'react-icons/ai';
 import { RxCross2 } from 'react-icons/rx'
 import { classA } from '../data/data';
-import "../index.css"
+import "../index.css";
+import img from '../images/bee.png'
 
 const Navbar = () => {
     const list = document.querySelectorAll('ul');
@@ -16,8 +17,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between p-3 text-main-color items-center nav z-1">
         <div>
-            <img src="../images/bee.png" alt="Logo" />
-            <h2>logooooo</h2>
+            <img src={img} alt="" />
         </div>
         <div className='md:hidden block p-2 rounded-md shadow-md cursor-pointer lg:text-3xl md:text-2xl sm:text-xl text-main-color'>
             {iconClose ?   <RxCross2 onClick={Tofalse}/> : <AiOutlineMenu onClick={Totrue} />}

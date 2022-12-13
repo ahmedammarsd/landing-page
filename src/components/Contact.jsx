@@ -4,6 +4,7 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js/auto";
 import { BsInstagram } from "react-icons/bs";
 import { RxDownload } from "react-icons/rx";
 import { RxGrid } from "react-icons/rx";
+import img from "../images/image.png"
 import { mainContainer, gridColms , mainTitle ,buttons , chartDou , spaceBetween , twoIcones , pragraph ,dataDougtnuts } from "../data/data";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
@@ -32,7 +33,7 @@ const Contact = () => {
 
         <div className="relative p-20">
           <div className="image">
-            <img src="/images/image.png" className="" />
+            <img src={img} className="" />
           </div>
 
           <div className={chartDou}>

@@ -1,6 +1,9 @@
 import React from "react";
 import { BsCheckCircleFill } from "react-icons/bs";
 import { gridColms, mainContainer } from "../data/data";
+import img from "../images/image2.jpg";
+import img2 from "../images/union5.png";
+import img3 from "../images/image3.jpg"
 
 const Experiens = () => {
   return (
@@ -8,11 +11,11 @@ const Experiens = () => {
       <div className={gridColms}>
         <div className="relative p-20">
           <div className="image w-full h-full">
-            <img src="/images/image2.jpg" className="w-full h-full"/>
+            <img src={img} className="w-full h-full"/>
           </div>
           <div className=" bg-white rounded-lg shadow-md p-6 absolute xl:-bottom-4 lg:-bottom-4 md:bottom-5 sm:bottom-10 bottom-16 left-4 hover:shadow-lg">
             <div className=" bg-red-600 rounded-[100%] p-4 w-[25%] h-[25%] shadow-2xl shadow-rose-600 float-left -mt-9">
-              <img src="/images/Union5.png" />
+              <img src={img2} />
             </div>
             <div>
               <h3 className=" font-semibold">مصنفة عالميا</h3>
@@ -21,7 +24,7 @@ const Experiens = () => {
             <div>
               <div className="flex justify-between items-center w-full gap-7">
                 <div className="flex justify-between items-center ">
-                  <img src="/images/image3.jpg" />
+                  <img src={img3} />
                   <div>
                     <h4 className="text-md text-main-color font-semibold">
                       هذا النص مثال
@@ -35,7 +38,7 @@ const Experiens = () => {
               </div>
               <div className="flex justify-between items-center w-full">
                 <div className="flex justify-between items-center">
-                  <img src="/images/image3.jpg" />
+                  <img src={img3} />
                   <div>
                     <h4 className="text-md text-main-color font-semibold">
                       هذا النص مثال

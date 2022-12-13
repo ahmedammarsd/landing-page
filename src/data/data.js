@@ -2,37 +2,37 @@
 export const classA = "px-1 py-3 border-b-2 border-transparent active:border-b-2 active:border-yellow-b-border hover:border-b-2 hover:border-yellow-b-border font-semibold duration-500";
 export const dataCards = [
     {
-        icon : '/images/Vector.png',
+        icon : 'vector.png',
         title : 'هذا النص هو مثال لنص',
         body : 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة',
         button : 'أعرف أكثر'
     },
     {
-        icon : '/images/Union4.png',
+        icon : 'union4.png',
         title : 'هذا النص هو مثال لنص',
         body : 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة',
         button : 'أعرف أكثر'
     },
     {
-        icon : '/images/Union2.png',
+        icon : 'union2.png',
         title : 'هذا النص هو مثال لنص',
         body : 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة',
         button : 'أعرف أكثر'
     },
     {
-        icon : '/images/Union3.png',
+        icon : 'union3.png',
         title : 'هذا النص هو مثال لنص',
         body : 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة',
         button : 'أعرف أكثر'
     },
     {
-        icon : '/images/Union.png',
+        icon : 'union.png',
         title : 'هذا النص هو مثال لنص',
         body : 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة',
         button : 'أعرف أكثر'
     },
     {
-        icon : '/images/Chart.png',
+        icon : 'chart.png',
         title : 'هذا النص هو مثال لنص',
         body : 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة',
         button : 'أعرف أكثر'
@@ -124,7 +124,7 @@ export const dataDougtnuts = {
   ///////////
 
   //Experiens
-  
+
   /////////////////
 
 
