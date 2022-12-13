@@ -8,7 +8,7 @@ const Experiens = () => {
       <div className={gridColms}>
         <div className="relative p-20">
           <div className="image w-full h-full">
-            <img src="../images/image2.jpg" className="w-full h-full"/>
+            <img src="/images/image2.jpg" className="w-full h-full"/>
           </div>
           <div className=" bg-white rounded-lg shadow-md p-6 absolute xl:-bottom-4 lg:-bottom-4 md:bottom-5 sm:bottom-10 bottom-16 left-4 hover:shadow-lg">
             <div className=" bg-red-600 rounded-[100%] p-4 w-[25%] h-[25%] shadow-2xl shadow-rose-600 float-left -mt-9">
