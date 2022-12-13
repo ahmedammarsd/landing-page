@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between p-3 text-main-color items-center nav z-1">
         <div>
-            <img src="../../public/images/bee icon 1.png" alt="Logo" />
+            <img src="../../public/images/bee.png" alt="Logo" />
             <h2>logoo</h2>
         </div>
         <div className='md:hidden block p-2 rounded-md shadow-md cursor-pointer lg:text-3xl md:text-2xl sm:text-xl text-main-color'>
