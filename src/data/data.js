@@ -1,38 +1,45 @@
 
+import i1 from "../images/vector.png";
+import i2 from "../images/union4.png";
+import i3 from "../images/union2.png";
+import i4 from "../images/union3.png";
+import i5 from "../images/union.png";
+import i6 from "../images/chart.png";
+
 export const classA = "px-1 py-3 border-b-2 border-transparent active:border-b-2 active:border-yellow-b-border hover:border-b-2 hover:border-yellow-b-border font-semibold duration-500";
 export const dataCards = [
     {
-        icon : 'vector.png',
+        icon : i1,
         title : 'هذا النص هو مثال لنص',
         body : 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة',
         button : 'أعرف أكثر'
     },
     {
-        icon : 'union4.png',
+        icon : i2,
         title : 'هذا النص هو مثال لنص',
         body : 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة',
         button : 'أعرف أكثر'
     },
     {
-        icon : 'union2.png',
+        icon : i3,
         title : 'هذا النص هو مثال لنص',
         body : 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة',
         button : 'أعرف أكثر'
     },
     {
-        icon : 'union3.png',
+        icon : i4,
         title : 'هذا النص هو مثال لنص',
         body : 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة',
         button : 'أعرف أكثر'
     },
     {
-        icon : 'union.png',
+        icon : i5,
         title : 'هذا النص هو مثال لنص',
         body : 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة',
         button : 'أعرف أكثر'
     },
     {
-        icon : 'chart.png',
+        icon : i6,
         title : 'هذا النص هو مثال لنص',
         body : 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة',
         button : 'أعرف أكثر'
